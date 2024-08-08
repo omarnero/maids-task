@@ -2,8 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../../user.modal';
-import { tick } from '@angular/core/testing';
-import { TimeScale } from 'chart.js';
 
 @Component({
   selector: 'app-singleuserpage',
