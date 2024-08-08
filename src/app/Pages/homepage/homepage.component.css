@@ -1,0 +1,37 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.action {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.action button {
+  padding: 0.35rem 0.8rem;
+  background-color: #433352;
+  color: #c3b3d1;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  text-transform: capitalize;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+}
+.action svg {
+  width: 20px;
+  height: 20px;
+}
+.action button:hover,
+.active {
+  background-color: #9965dd;
+  color: #150722;
+}

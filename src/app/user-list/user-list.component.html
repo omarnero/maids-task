@@ -1,0 +1,8 @@
+<div>
+  <button (click)="onSelectedUser()">
+    <span>{{ user.id + "." }}</span>
+    <img [src]="user.avatar" [alt]="user.id" />
+
+    <span>{{ user.first_name }} {{ user.last_name }} </span>
+  </button>
+</div>

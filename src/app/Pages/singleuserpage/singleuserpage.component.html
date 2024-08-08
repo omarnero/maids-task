@@ -1,0 +1,32 @@
+<app-header />
+@if (isLoading) {
+<div class="center">
+  <mat-spinner color="warn"></mat-spinner>
+</div>
+} @else{
+<div class="user">
+  <div>
+    <h2>Image</h2>
+    <img [alt]="user?.id" [src]="user?.avatar" />
+  </div>
+  <div>
+    <h2>id</h2>
+    <p>{{ user?.id }}</p>
+  </div>
+  <div>
+    <h2>first name</h2>
+    <p>{{ user?.first_name }}</p>
+  </div>
+  <div>
+    <h2>last name</h2>
+    <p>{{ user?.last_name }}</p>
+  </div>
+  <div>
+    <h2>email</h2>
+    <p>{{ user?.email }}</p>
+  </div>
+</div>
+<div class="btn">
+  <button (click)="onBack()">Back</button>
+</div>
+}

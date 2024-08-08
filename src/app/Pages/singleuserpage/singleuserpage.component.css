@@ -1,0 +1,42 @@
+.user {
+  margin: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.user h2 {
+  text-transform: capitalize;
+}
+.user img {
+  border-radius: 8px;
+  width: 4rem;
+  height: 4rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1rem 2rem;
+}
+.btn button {
+  background: #eff2ff;
+  border: none;
+  border-radius: 50px;
+  height: 45px;
+  width: 6rem;
+  color: #09183f;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
